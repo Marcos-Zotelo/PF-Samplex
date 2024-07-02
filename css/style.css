@@ -4,32 +4,31 @@
     font-style: normal;
 }
 
-p{
-    font-size: 18px;
+.color-enlace{
+    color: #5A71C4;
 }
 
-/*
-.cont-carrusel{
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
-}
-    */
- .carrusel-img{
-    height: 40rem;
-    object-fit: cover;
+p{
+    font-size: 18px;
 }
 
 .icon-width{
     width: 25px;
 }
 
-/*con esta clase puedo modificar los botones de sampling e historia*/
 .btn-ir{
     background-color: #5A71C4;
     color:white;
+    display: block;
+    width: 80%; 
+    margin: auto;
+    border: none;
+    
 }
 
-footer{
-    display: flex;
+.tarjeta-borde {
+    border: none;
+}
+.linea-enlace:hover{
+    text-decoration: underline;
 }
