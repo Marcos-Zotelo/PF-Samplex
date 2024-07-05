@@ -3,19 +3,25 @@
     font-weight: 200;
     font-style: normal;
 }
-
+/*header*/
 .color-enlace{
     color: #5A71C4;
 }
+.linea-enlace:hover{
+    text-decoration: underline;
+}
 
+/*parrafos*/
 p{
     font-size: 18px;
 }
 
+/*footer*/
 .icon-width{
     width: 25px;
 }
 
+/*boton*/
 .btn-ir{
     background-color: #5A71C4;
     color:white;
@@ -23,12 +29,9 @@ p{
     width: 80%; 
     margin: auto;
     border: none;
-    
 }
 
+/*card*/
 .tarjeta-borde {
     border: none;
-}
-.linea-enlace:hover{
-    text-decoration: underline;
 }

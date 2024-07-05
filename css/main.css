@@ -1,0 +1,36 @@
+* {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.btn-ir {
+  background-color: #5A71C4;
+  color: white;
+  display: block;
+  width: 80%;
+  margin: auto;
+  border: none;
+}
+
+.tarjeta-borde {
+  border: none;
+}
+
+.icon-width {
+  width: 25px;
+}
+
+.color-enlace {
+  color: #5A71C4;
+}
+
+.linea-enlace:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=main.css.map */
