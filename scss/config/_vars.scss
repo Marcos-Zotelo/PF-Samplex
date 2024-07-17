@@ -3,3 +3,12 @@ $blue: #5A71C4;
 
 //tipografia
 $kanit: "Kanit", sans-serif;
+
+//mixin
+@mixin medida ($ancho){
+    width: $ancho;
+}
+
+@mixin sin-bordes{
+    border: none;
+}

@@ -2,16 +2,16 @@
     background-color: $blue;
     color:white;
     display: block;
-    width: 80%; 
+    @include medida (80%);
     margin: auto;
-    border: none;
+    @include sin-bordes;
 }
 
 .tarjeta-borde {
-    border: none;
+    @include sin-bordes;
 }
 
 .icon-width{
-    width: 25px;
+    @include medida (25px);
 }
 
