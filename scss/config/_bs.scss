@@ -4,14 +4,26 @@
     display: block;
     @include medida (80%);
     margin: auto;
-    @include sin-bordes;
+    border:none;
 }
 
 .tarjeta-borde {
-    @include sin-bordes;
+    border:none;
 }
 
 .icon-width{
     @include medida (25px);
+}
+
+.card-title{
+    font-size: 27px;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+.nav-link{
+    font-size: 18px;
 }
 
